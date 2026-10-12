@@ -1,0 +1,21 @@
+# Python and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local market-data cache and database
+data/.yfinance_cache/
+data/*.db
+data/*.db-*
+
+# OS and editor files
+.DS_Store
+__MACOSX/
+.vscode/
+
+# Secrets
+.env
+.env.*
+!.env.example

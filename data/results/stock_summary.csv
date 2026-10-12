@@ -1,0 +1,5 @@
+ticker,trading_days,avg_return_pct,lowest_close,highest_close
+BAC,252,0.12,29.76,45.7
+JPM,252,0.09,157.76,240.47
+MS,252,-0.01,77.47,129.18
+^GSPC,252,0.01,4688.68,6090.27

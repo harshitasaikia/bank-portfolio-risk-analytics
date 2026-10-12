@@ -1,0 +1,16 @@
+metric,value
+observations,251.0
+benchmark_observations,251.0
+total_return,0.3889366725817258
+annualized_geometric_return,0.3907558674135049
+annualized_arithmetic_return,0.35286155890214765
+annualized_log_return,0.32984738884878445
+annualized_volatility,0.21537200149662594
+annualized_log_volatility,0.21322850114933536
+beta,0.8975679841758866
+annualized_alpha,0.144744470693806
+sharpe_ratio,1.3241917468842634
+sortino_ratio,2.1454503348980056
+max_drawdown,0.13323450578368312
+calmar_ratio,2.9328428481427196
+treynor_ratio,0.3177406412881712

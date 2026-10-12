@@ -1,0 +1,29 @@
+{
+  "refresh": true,
+  "start": "2024-01-01",
+  "end": "2025-01-01",
+  "weights": {
+    "MS": 0.3333333333333333,
+    "JPM": 0.3333333333333333,
+    "BAC": 0.3333333333333333
+  },
+  "portfolio_value": 1000000,
+  "risk_free_rate": 0.07,
+  "simulations": 100000,
+  "seed": 42,
+  "confidence": [
+    0.9,
+    0.95,
+    0.99
+  ],
+  "benchmark": "^GSPC (price index)",
+  "price_start": "2024-01-02",
+  "price_end": "2024-12-31",
+  "return_observations": 251,
+  "missing_return_rows_excluded": 0,
+  "horizon_trading_days": 1,
+  "rebalancing": "daily constant weights",
+  "price_adjustment": "yfinance auto_adjust=True for pipeline downloads",
+  "loss_sign": "positive=loss; negative=gain",
+  "normal_model": "multivariate normal simple returns"
+}

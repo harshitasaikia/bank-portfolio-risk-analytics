@@ -1,0 +1,6 @@
+"""Compatibility entry point; implementation is in run_queries.py."""
+from run_queries import *
+
+if __name__ == "__main__":
+    print(get_summary_stats())
+    print(get_prices_for_models())

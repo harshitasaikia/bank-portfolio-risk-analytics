@@ -1,0 +1,10 @@
+"""Compatibility entry point; implementation is in load_to_db.py."""
+from load_to_db import *
+
+if __name__ == "__main__":
+    df = download_stock_data(["MS", "JPM", "BAC", "^GSPC"])
+    conn = create_connection()
+    try:
+        load_data(conn, df)
+    finally:
+        conn.close()
